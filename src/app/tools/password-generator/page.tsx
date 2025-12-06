@@ -1,12 +1,12 @@
 import PageTitle from "../../../components/ui/PageTitle";
 
 const pageData = {
-  title: "Resistor Color Code Calculator",
+  title: "Password Generator",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, suscipit. Consectetur fuga debitis quam dolores itaque distinctio harum dolore asperiores quod dignissimos.",
 };
 
-const ResistorCodesPage = () => {
+const PasswordGeneratorPage = () => {
   return (
     <>
       <PageTitle title={pageData.title} description={pageData.description} />
@@ -15,4 +15,4 @@ const ResistorCodesPage = () => {
   );
 };
 
-export default ResistorCodesPage;
+export default PasswordGeneratorPage;
